@@ -84,7 +84,7 @@ languages: [中文, English, 代码语言]
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=2000&color=FF6B35&center=true&vCenter=true&width=600&lines=🚀+正在探索+游戏引擎+性能优化;🤖+深入研究+AI智能体+架构设计;⚡+持续学习+最新技术+趋势;💡+不断创新+突破边界" alt="Current Focus" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=2000&color=FF6B35&center=true&vCenter=true&width=600&lines=🔥+重点开发+StructForgeAI+智能架构平台;🚀+正在探索+游戏引擎+性能优化;🤖+深入研究+AI智能体+架构设计;⚡+持续学习+最新技术+趋势;💡+不断创新+突破边界" alt="Current Focus" />
 </div>
 
 ---
@@ -162,6 +162,22 @@ class Samuel:
 ---
 
 ## 🌟 项目亮点
+
+### 🔥 当前重点项目
+
+<div align="center">
+
+> **🚀 [StructForgeAI](https://github.com/Samuel521199/StructForgeAI)** - AI驱动的智能架构设计与代码生成平台
+>
+> *用AI重新定义软件架构设计，让代码生成更智能、更高效*
+
+| 特性 | 技术栈 | 状态 |
+|:---:|:---:|:---:|
+| 🤖 AI架构设计 | Python, AI, LLM | 🚀 进行中 |
+| 💻 智能代码生成 | Architecture, Code Generation | 🔥 重点开发 |
+| 🏗️ 系统架构优化 | Design Patterns, Best Practices | ⚡ 持续迭代 |
+
+</div>
 
 <div align="center">
 
