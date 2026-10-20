@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="284" viewBox="0 0 1200 284" role="img" aria-labelledby="title desc">
+<title id="title">JarvisSystem — personal AI assistant development prototype</title>
+<desc id="desc">Dark technical layout with cyan and violet accents. Decorative slow orbit and scanning motion; reduced-motion supported.</desc>
+<defs>
+ <linearGradient id="edge"><stop stop-color="#59eadb"/><stop offset=".55" stop-color="#5077be"/><stop offset="1" stop-color="#ba91ff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#234962" stop-opacity=".58"/><stop offset="1" stop-color="#09101b" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2c3e" stroke-width=".7"/></pattern>
+ <clipPath id="frame"><rect width="1200" height="284" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.mono{font-family:Consolas,'Liberation Mono',monospace}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 36s linear infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.scan{animation:scan 12s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+@keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,75%{opacity:.65}85%{transform:translateX(950px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan{animation:none}.scan{display:none}}
+</style>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="284" fill="#090f19"/>
+ <rect width="1200" height="284" fill="url(#grid)" opacity=".45"/>
+ <text x="34" y="43" fill="#65e5da" font-size="15" class="mono" letter-spacing="2">01 / CURRENT FOCUS</text><text x="34" y="103" fill="#f0f6fc" font-size="52" font-weight="700" letter-spacing="-1">JARVIS SYSTEM</text><text x="36" y="146" fill="#a8bbd1" font-size="20" >A personal AI assistant, built around continuity.</text><text x="36" y="194" fill="#ba9dec" font-size="15" class="mono">MEMORY  /  CONVERSATION  /  TOOLS  /  WORKSPACE</text><path d="M36 222H1164" stroke="#27384c"/><text x="36" y="258" fill="#8ea9c1" font-size="14" class="mono">PYTHON + WEB UI</text><text x="1164" y="258" fill="#65e5da" font-size="14" class="mono" text-anchor="end">DEVELOPMENT PROTOTYPE  ↗</text><path d="M875 62H925" stroke="#46677d"/><rect x="925" y="45" width="228" height="34" rx="5" fill="#0e1b29" stroke="#314d65"/><text x="944" y="67" fill="#92c9cc" font-size="14" class="mono">CONTEXT</text><circle class="pulse" cx="1132" cy="62" r="3" fill="#7ce0d5" style="animation-delay:0s"/><path d="M875 112H925" stroke="#46677d"/><rect x="925" y="95" width="228" height="34" rx="5" fill="#0e1b29" stroke="#314d65"/><text x="944" y="117" fill="#92c9cc" font-size="14" class="mono">MEMORY</text><circle class="pulse" cx="1132" cy="112" r="3" fill="#7ce0d5" style="animation-delay:1s"/><path d="M875 162H925" stroke="#46677d"/><rect x="925" y="145" width="228" height="34" rx="5" fill="#0e1b29" stroke="#314d65"/><text x="944" y="167" fill="#92c9cc" font-size="14" class="mono">ACTION</text><circle class="pulse" cx="1132" cy="162" r="3" fill="#7ce0d5" style="animation-delay:2s"/><path d="M875 62V162" stroke="#46677d"/>
+ <rect x=".5" y=".5" width="1199" height="283" rx="12" fill="none" stroke="#29394d"/>
+ <path d="M1 36V1H90M1110 283H1199V248" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</g></svg>

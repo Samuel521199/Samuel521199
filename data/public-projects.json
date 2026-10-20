@@ -1,0 +1,292 @@
+{
+  "checked_on": "2026-10-20",
+  "source": "https://api.github.com/users/Samuel521199/repos?per_page=100&sort=updated",
+  "repositories": [
+    {
+      "name": "JarvisSystem",
+      "html_url": "https://github.com/Samuel521199/JarvisSystem",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 33767,
+      "updated_at": "2026-10-19T06:35:40Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "openwiki",
+      "html_url": "https://github.com/Samuel521199/openwiki",
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 39212,
+      "updated_at": "2026-10-16T09:59:05Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "mem0",
+      "html_url": "https://github.com/Samuel521199/mem0",
+      "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 67858,
+      "updated_at": "2026-10-16T08:24:28Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "word-front",
+      "html_url": "https://github.com/Samuel521199/word-front",
+      "description": "学习英语的游戏，让学英语和玩游戏一样简单",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "size": 120916,
+      "updated_at": "2026-09-13T16:33:24Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "test2",
+      "html_url": "https://github.com/Samuel521199/test2",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 21,
+      "updated_at": "2026-08-11T05:55:09Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "RenYiMen",
+      "html_url": "https://github.com/Samuel521199/RenYiMen",
+      "description": "Ren Yi Men AI",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "size": 397444,
+      "updated_at": "2026-08-10T05:27:48Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "voicebox",
+      "html_url": "https://github.com/Samuel521199/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 108304,
+      "updated_at": "2026-08-04T09:31:37Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "VoxCPM",
+      "html_url": "https://github.com/Samuel521199/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 4596,
+      "updated_at": "2026-08-04T09:14:44Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "jachin-system",
+      "html_url": "https://github.com/Samuel521199/jachin-system",
+      "description": "最强大的AI助理",
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 91091,
+      "updated_at": "2026-07-29T06:22:22Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "scroll-world",
+      "html_url": "https://github.com/Samuel521199/scroll-world",
+      "description": "A skill that turn any brand into a scrollable 3D world",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 103,
+      "updated_at": "2026-07-28T06:32:27Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "clickyfork",
+      "html_url": "https://github.com/Samuel521199/clickyfork",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 11104,
+      "updated_at": "2026-07-27T10:08:12Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "grok-build-fork",
+      "html_url": "https://github.com/Samuel521199/grok-build-fork",
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 4485,
+      "updated_at": "2026-07-17T03:58:03Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "airi",
+      "html_url": "https://github.com/Samuel521199/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 496245,
+      "updated_at": "2026-04-30T15:57:09Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "OmniParser",
+      "html_url": "https://github.com/Samuel521199/OmniParser",
+      "description": "A simple screen parsing tool towards pure vision based GUI agent",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 51971,
+      "updated_at": "2026-04-17T09:42:08Z",
+      "default_branch": "master"
+    },
+    {
+      "name": "Boaz",
+      "html_url": "https://github.com/Samuel521199/Boaz",
+      "description": "零信任硬件初始化与底层环境审计系统",
+      "language": "Rust",
+      "fork": false,
+      "archived": false,
+      "size": 6966,
+      "updated_at": "2026-02-26T08:42:52Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "BEZALEL",
+      "html_url": "https://github.com/Samuel521199/BEZALEL",
+      "description": "An unattended development system, a fully automated software engineering closed-loop, where the human role shifts from “code writer” to “intent definer” and “strategic reviewer.”",
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 250,
+      "updated_at": "2026-02-02T08:49:32Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "StructForge",
+      "html_url": "https://github.com/Samuel521199/StructForge",
+      "description": "StructForge AI aims to build an AI-driven, extensible intelligent workflow system that helps game designers and content editors break free from the tedious work of data tables and XML configuration.",
+      "language": "Go",
+      "fork": false,
+      "archived": false,
+      "size": 28264,
+      "updated_at": "2025-11-21T15:45:26Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "Samuel521199",
+      "html_url": "https://github.com/Samuel521199/Samuel521199",
+      "description": "Samuel's Public Homepage",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "size": 5,
+      "updated_at": "2025-11-13T08:25:45Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "StructForgeAI",
+      "html_url": "https://github.com/Samuel521199/StructForgeAI",
+      "description": "StructForge AI aims to build an AI-driven, extensible intelligent workflow system that helps game designers and content editors break free from the tedious work of data tables and XML configuration.",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "size": 596,
+      "updated_at": "2025-11-10T11:11:06Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "kratos_server",
+      "html_url": "https://github.com/Samuel521199/kratos_server",
+      "description": "A generic example of microservices in the kratos framework based on go. Source technology website: https://github.com/go-kratos/kratos-layout",
+      "language": "Go",
+      "fork": false,
+      "archived": false,
+      "size": 79,
+      "updated_at": "2025-06-14T16:54:35Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "BoneFX",
+      "html_url": "https://github.com/Samuel521199/BoneFX",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "size": 8333,
+      "updated_at": "2025-05-22T14:59:29Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "VisualAnalysisSystem",
+      "html_url": "https://github.com/Samuel521199/VisualAnalysisSystem",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 33,
+      "updated_at": "2025-04-25T10:37:48Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "NebulaVerseAI",
+      "html_url": "https://github.com/Samuel521199/NebulaVerseAI",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 131,
+      "updated_at": "2025-04-13T15:48:21Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "DesignerEditor",
+      "html_url": "https://github.com/Samuel521199/DesignerEditor",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "size": 141,
+      "updated_at": "2025-04-12T03:35:43Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "AIUnityMCP",
+      "html_url": "https://github.com/Samuel521199/AIUnityMCP",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "size": 0,
+      "updated_at": "2025-04-05T07:53:56Z",
+      "default_branch": "main"
+    },
+    {
+      "name": "UnityMindFlowPro",
+      "html_url": "https://github.com/Samuel521199/UnityMindFlowPro",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "size": 0,
+      "updated_at": "2025-04-04T02:59:47Z",
+      "default_branch": "main"
+    }
+  ]
+}

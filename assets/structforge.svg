@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="574" height="214" viewBox="0 0 574 214" role="img" aria-labelledby="title desc">
+<title id="title">StructForge — Visual orchestration for AI workflows.</title>
+<desc id="desc">Dark technical layout with cyan and violet accents. Decorative slow orbit and scanning motion; reduced-motion supported.</desc>
+<defs>
+ <linearGradient id="edge"><stop stop-color="#59eadb"/><stop offset=".55" stop-color="#5077be"/><stop offset="1" stop-color="#ba91ff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#234962" stop-opacity=".58"/><stop offset="1" stop-color="#09101b" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2c3e" stroke-width=".7"/></pattern>
+ <clipPath id="frame"><rect width="574" height="214" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.mono{font-family:Consolas,'Liberation Mono',monospace}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 36s linear infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.scan{animation:scan 12s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+@keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,75%{opacity:.65}85%{transform:translateX(950px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan{animation:none}.scan{display:none}}
+</style>
+<g clip-path="url(#frame)">
+ <rect width="574" height="214" fill="#090f19"/>
+ <rect width="574" height="214" fill="url(#grid)" opacity=".45"/>
+ <text x="26" y="37" fill="#67e5d8" font-size="13" class="mono" letter-spacing="1">02 / WORKFLOW ENGINE</text><text x="26" y="90" fill="#eff5fc" font-size="36" font-weight="700" letter-spacing="-1">StructForge</text><text x="26" y="128" fill="#a6b8ce" font-size="16" >Visual orchestration for AI workflows.</text><path d="M26 154H548" stroke="#27384c"/><text x="26" y="188" fill="#b3c1d2" font-size="13" class="mono">GO / VUE / TYPESCRIPT</text><text x="548" y="188" fill="#67e5d8" font-size="24" text-anchor="end">↗</text>
+ <rect x=".5" y=".5" width="573" height="213" rx="12" fill="none" stroke="#29394d"/>
+ <path d="M1 36V1H90M484 213H573V178" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</g></svg>

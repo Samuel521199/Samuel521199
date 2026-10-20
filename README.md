@@ -1,251 +1,105 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&width=600&lines=🦁+Samuel+521199+🦁;🎮+Game+Developer+%26+AI+Architect;💻+Full-Stack+Technologist;⚡+Passionate+Innovator" alt="Typing SVG" />
-</div>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/hero-compact.svg">
+  <img src="./assets/hero.svg" width="100%" alt="Samuel — 把想法，构建成系统。AI systems / workflows / creative tools.">
+</picture>
 
----
+<p align="center">
+  <a href="#selected-work">精选项目</a> &nbsp; / &nbsp;
+  <a href="#engineering">技术与实践</a> &nbsp; / &nbsp;
+  <a href="#exploration">探索记录</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Samuel521199?tab=repositories">全部公开仓库 ↗</a>
+</p>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35&height=120&section=header&text=🦁+Welcome+to+My+World+🦁&fontSize=50&fontColor=FFFFFF&animation=twinkling" alt="Header" />
-</div>
+我关注 **个人 AI 助手、智能工作流与游戏创作工具**。从模型接入、记忆和任务编排，到桌面界面、可视化编辑与游戏交互，把想法逐步落到可以阅读、运行和继续迭代的代码里。
 
----
+**当前重心 → [JarvisSystem](https://github.com/Samuel521199/JarvisSystem)**：围绕自然交流、个人记忆和持续协助，构建由使用者掌控的个人 AI 助手。
 
-## 🦁 关于我
+<a id="selected-work"></a>
+## Selected work / 项目现场
 
-```yaml
-name: Samuel
-zodiac: 狮子座 ♌
-passion: 游戏开发 & AI架构
-motto: "代码如诗，架构如画"
-location: 数字世界
-languages: [中文, English, 代码语言]
+<a href="https://github.com/Samuel521199/JarvisSystem">
+  <img src="./assets/jarvis.svg" width="100%" alt="JarvisSystem：个人 AI 助手开发原型，围绕交流、记忆、工具与项目工作区。查看源码。">
+</a>
+
+**长期相处的助手，也是一套可持续演进的个人工作台。**
+
+公开仓库包含聊天与模型路由、个人记忆、项目文件工作区、技能与 MCP，以及语音和受限成长能力的代码与文档。开发原型的实现、验证和待完成范围分别记录，具体状态以仓库证据为准。
+
+[源码](https://github.com/Samuel521199/JarvisSystem) · [架构与文档](https://github.com/Samuel521199/JarvisSystem/blob/main/docs/README.md) · [验证记录](https://github.com/Samuel521199/JarvisSystem/blob/main/docs/delivery-validation.md)
+
+<p>
+  <a href="https://github.com/Samuel521199/StructForge"><img src="./assets/structforge.svg" width="49%" alt="StructForge：Go、Vue 与 TypeScript 构建的可视化 AI 工作流项目。"></a>
+  <a href="https://github.com/Samuel521199/word-front"><img src="./assets/wordfront.svg" width="49%" alt="词锋 Word Front：英语学习与战术卡牌结合的 JavaScript、Electron 游戏。"></a>
+</p>
+
+**[StructForge](https://github.com/Samuel521199/StructForge)**
+
+可视化 AI 工作流编排。公开代码按 Vue 前端和 Go 后端组织，围绕模型接入、节点和工作流执行展开。早期相关仓库：[StructForgeAI](https://github.com/Samuel521199/StructForgeAI)。
+
+**[词锋 · WORD FRONT](https://github.com/Samuel521199/word-front)**
+
+将英语词汇学习与二战题材战术卡牌结合，包含内容工坊、FSRS 复习调度及 Web / Windows 桌面代码。当前公开说明为本地可玩版本；从源码启动需要另行取得匹配的内容密钥，运行条件见仓库说明。
+
+### More systems / 继续探索
+
+| 项目 | 方向与公开内容 | 技术线索 |
+| :--- | :--- | :--- |
+| **[RenYiMen](https://github.com/Samuel521199/RenYiMen)** | AI 工作流前端，将 ComfyUI / RunningHub 工作流输入映射成 Schema 驱动界面；运行依赖后端网关。 | Next.js · TypeScript · Zustand |
+| **[Jachin System](https://github.com/Samuel521199/jachin-system)** | 分布式 AI 助手架构探索，包含控制面、桌面客户端和插件 SDK。 | Python · Tauri · Rust |
+| **[Boaz](https://github.com/Samuel521199/Boaz)** | 主机环境审计与威胁检测方向，公开 Rust 工程和桌面界面代码。 | Rust |
+| **[BEZALEL](https://github.com/Samuel521199/BEZALEL)** | 自动化软件工程实验，将规划、编码角色与编排器组合成工作流。 | Python · LangGraph |
+| **[BoneFX](https://github.com/Samuel521199/BoneFX)** | 2D / 伪 3D 动画工具探索，围绕渲染、动画、编辑器与模型接口组织。 | TypeScript |
+
+<a id="engineering"></a>
+## Engineering / 从代码到系统
+
+| 关注层 | 公开项目中的实践 |
+| :--- | :--- |
+| **AI & agents** | 个人记忆、模型接入、技能与工具调用、任务编排；见 JarvisSystem、Jachin、BEZALEL。 |
+| **Workflow & interfaces** | 可视化节点、Schema 驱动表单、Web 与桌面界面；见 StructForge、RenYiMen。 |
+| **Games & creative tools** | 战术卡牌、间隔复习、动画与渲染工具；见 Word Front、BoneFX。 |
+| **System foundations** | Python 服务、Go 后端、Rust 模块，配合项目文档、配置与验证记录。 |
+
+```text
+DEFINE THE PROBLEM
+    └── design the system
+            └── build the smallest useful version
+                    └── inspect, test, iterate
 ```
 
-> *"在代码的海洋中，我既是船长也是探险家。每一行代码都是对完美的追求，每一个架构都是对未来的想象。"*
+<a id="exploration"></a>
+## Field notes / 探索记录
 
----
+公开仓库是开发过程的记录。这里按主题整理作品，不把目标描述当作已经完成的能力。
 
-## 🛠️ 技术栈
+<details>
+<summary><strong>早期实验与其他公开仓库</strong></summary>
 
-### 🎮 游戏开发
+- [NebulaVerseAI](https://github.com/Samuel521199/NebulaVerseAI)、[DesignerEditor](https://github.com/Samuel521199/DesignerEditor)、[VisualAnalysisSystem](https://github.com/Samuel521199/VisualAnalysisSystem)：早期 Python 实验。
+- [kratos_server](https://github.com/Samuel521199/kratos_server)：基于 Kratos 布局的 Go 微服务示例。
+- [test2](https://github.com/Samuel521199/test2)：实验仓库。
+- [AIUnityMCP](https://github.com/Samuel521199/AIUnityMCP)、[UnityMindFlowPro](https://github.com/Samuel521199/UnityMindFlowPro)：核对时尚无代码内容，保留为探索记录。
 
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Cocos2d](https://img.shields.io/badge/Cocos2d-000000?style=for-the-badge&logo=cocos2d&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unreal-engine&logoColor=white)
+</details>
 
-### 🤖 AI & 机器学习
+<details>
+<summary><strong>Fork / 关注与学习的上游项目</strong></summary>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+以下为 Fork，不计入个人作品；项目与贡献归属以各自上游及提交记录为准。
 
-### 💻 全栈开发
+- **记忆与文档**：[mem0](https://github.com/Samuel521199/mem0)、[openwiki](https://github.com/Samuel521199/openwiki)。
+- **语音与陪伴**：[voicebox](https://github.com/Samuel521199/voicebox)、[VoxCPM](https://github.com/Samuel521199/VoxCPM)、[airi](https://github.com/Samuel521199/airi)。
+- **工具与交互**：[OmniParser](https://github.com/Samuel521199/OmniParser)、[grok-build-fork](https://github.com/Samuel521199/grok-build-fork)、[clickyfork](https://github.com/Samuel521199/clickyfork)、[scroll-world](https://github.com/Samuel521199/scroll-world)。
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+</details>
 
-### ☁️ 云服务 & DevOps
+<br>
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+<img src="./assets/footer.svg" width="100%" alt="Idea → Architecture → Code → Iteration. Samuel / Build log.">
 
----
+<p align="center">
+  <a href="https://github.com/Samuel521199?tab=repositories">浏览项目</a> ·
+  <a href="https://github.com/Samuel521199/JarvisSystem/issues">围绕 Jarvis 交流</a>
+</p>
 
-## 📊 GitHub 统计
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Samuel521199&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=FF6B35&text_color=FFFFFF" alt="Samuel's GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samuel521199&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFFFFF" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Samuel521199&theme=radical&hide_border=true&background=0D1117&stroke=FF6B35&ring=FF6B35&fire=FF6B35&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
-</div>
-
----
-
-## 🎯 当前专注
-
-<div align="center">
-  
-| 🔥 游戏引擎优化 | 🧠 AI智能体开发 | 🏗️ 微服务架构 | 🎨 创意编程 |
-|:---:|:---:|:---:|:---:|
-| 让每一帧都如丝般顺滑 | 创造有灵魂的代码 | 构建可扩展的数字王国 | 用代码绘制艺术 |
-
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=2000&color=FF6B35&center=true&vCenter=true&width=600&lines=🔥+重点开发+StructForgeAI+智能架构平台;🚀+正在探索+游戏引擎+性能优化;🤖+深入研究+AI智能体+架构设计;⚡+持续学习+最新技术+趋势;💡+不断创新+突破边界" alt="Current Focus" />
-</div>
-
----
-
-## 🏆 成就徽章
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Samuel521199&theme=radical&no-frame=true&column=7&margin-w=15&margin-h=15" alt="Trophy" />
-</div>
-
----
-
-## 🦁 狮子座特质
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=FF6B35&center=true&vCenter=true&width=500&lines=🔥+热情+%7C+创新+%7C+领导力;💪+追求卓越+%7C+永不妥协;🎯+目标明确+%7C+执行力强;✨+用技术征服星辰大海" alt="Lion Traits" />
-</div>
-
-```mermaid
-pie title 我的技术DNA
-    "游戏开发" : 35
-    "AI架构" : 25
-    "全栈开发" : 20
-    "系统设计" : 15
-    "创新探索" : 5
-```
-
----
-
-## 📈 贡献热力图
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Samuel521199&theme=radical&hide_border=true&bg_color=0D1117&color=FF6B35&line=FF6B35&point=FFFFFF&area=true" alt="Activity Graph" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Samuel521199/Samuel521199/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
----
-
-## 🎮 游戏开发理念
-
-> *"每一款游戏都是一个世界，每一个世界都需要一个建筑师。我用代码搭建桥梁，连接现实与虚拟，创造无限可能。"*
-
-### 🎯 开发哲学
-
-- **性能至上** - 60FPS是底线，120FPS是追求
-- **用户体验** - 每一个像素都经过精心雕琢
-- **创新驱动** - 不满足于现状，永远追求突破
-
----
-
-## 🤖 AI 探索之旅
-
-```python
-class Samuel:
-    def __init__(self):
-        self.passion = "AI & Game Development"
-        self.experience = "多年"
-        self.zodiac = "狮子座"
-    
-    def code(self):
-        return "创造奇迹"
-    
-    def innovate(self):
-        return "突破边界"
-    
-    def inspire(self):
-        return "点燃激情"
-
-# 这就是我，一个永远在路上的技术探索者
-```
-
----
-
-## 🌟 项目亮点
-
-### 🔥 当前重点项目
-
-<div align="center">
-
-> **🚀 [StructForgeAI](https://github.com/Samuel521199/StructForgeAI)** - AI驱动的智能架构设计与代码生成平台
->
-> *用AI重新定义软件架构设计，让代码生成更智能、更高效*
-
-| 特性 | 技术栈 | 状态 |
-|:---:|:---:|:---:|
-| 🤖 AI架构设计 | Python, AI, LLM | 🚀 进行中 |
-| 💻 智能代码生成 | Architecture, Code Generation | 🔥 重点开发 |
-| 🏗️ 系统架构优化 | Design Patterns, Best Practices | ⚡ 持续迭代 |
-
-</div>
-
-<div align="center">
-
-### 🎮 游戏项目
-
-| 项目 | 描述 | 技术栈 |
-|:---:|:---:|:---:|
-| **3D游戏引擎** | 自研高性能渲染引擎 | Unity, C#, Shader |
-| **AI NPC系统** | 智能NPC行为树 | C#, AI, Behavior Tree |
-| **多人联机架构** | 低延迟网络同步 | C#, Network, Socket |
-
-### 🤖 AI项目
-
-| 项目 | 描述 | 技术栈 |
-|:---:|:---:|:---:|
-| **智能对话系统** | 多模态AI助手 | Python, OpenAI, NLP |
-| **游戏AI优化** | 智能难度调节 | Python, ML, Game AI |
-| **数据挖掘** | 玩家行为分析 | Python, Data Science, Analytics |
-
-</div>
-
----
-
-## 📞 联系我
-
-<div align="center">
-  <a href="https://github.com/Samuel521199">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://github.com/Samuel521199?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Active-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Looking%20for-Collaboration-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Collaboration" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35&height=200&section=footer&text=🦁+Keep+Coding%2C+Keep+Innovating+🦁&fontSize=30&fontColor=FFFFFF" alt="Footer" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Samuel521199&label=Profile%20views&color=FF6B35&style=for-the-badge" alt="Profile Views" />
-</div>
-
----
-
-<div align="center">
-  
-### ⚡ 实时状态
-
-![GitHub followers](https://img.shields.io/github/followers/Samuel521199?label=Followers&style=for-the-badge&color=FF6B35&logo=github)
-![GitHub User's stars](https://img.shields.io/github/stars/Samuel521199?label=Total%20Stars&style=for-the-badge&color=FF6B35&logo=github)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=2000&color=FF6B35&center=true&vCenter=true&width=800&lines=🦁+狮子座的代码世界+🦁;💻+用技术征服星辰大海+💻;🚀+代码如诗%2C+架构如画+🚀;✨+永远在路上+永远在探索+✨" alt="Footer Typing" />
-</div>
-
-<div align="center">
-  <sub>Made with ❤️ by Samuel | 狮子座 ♌ | 2024</sub>
-</div>
+<sub>项目资料核对：2026-10-20，来源为公开 GitHub 仓库、README 与目录。介绍不替代各项目的运行或验收结果。视觉资源随本仓库维护，不依赖第三方统计卡片服务。</sub>

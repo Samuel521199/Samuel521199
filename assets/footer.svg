@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
+<title id="title">Built from public projects, documented in code</title>
+<desc id="desc">Dark technical layout with cyan and violet accents. Decorative slow orbit and scanning motion; reduced-motion supported.</desc>
+<defs>
+ <linearGradient id="edge"><stop stop-color="#59eadb"/><stop offset=".55" stop-color="#5077be"/><stop offset="1" stop-color="#ba91ff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#234962" stop-opacity=".58"/><stop offset="1" stop-color="#09101b" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2c3e" stroke-width=".7"/></pattern>
+ <clipPath id="frame"><rect width="1200" height="84" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.mono{font-family:Consolas,'Liberation Mono',monospace}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 36s linear infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.scan{animation:scan 12s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+@keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,75%{opacity:.65}85%{transform:translateX(950px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan{animation:none}.scan{display:none}}
+</style>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="84" fill="#090f19"/>
+ <rect width="1200" height="84" fill="url(#grid)" opacity=".45"/>
+ <text x="32" y="49" fill="#91b8c9" font-size="17" class="mono">IDEA → ARCHITECTURE → CODE → ITERATION</text><text x="1164" y="49" fill="#c0a6ed" font-size="15" class="mono" text-anchor="end">SAMUEL / BUILD LOG</text>
+ <rect x=".5" y=".5" width="1199" height="83" rx="12" fill="none" stroke="#29394d"/>
+ <path d="M1 36V1H90M1110 83H1199V48" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</g></svg>

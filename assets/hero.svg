@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">Samuel — AI systems, workflows and creative tools</title>
+<desc id="desc">Dark technical layout with cyan and violet accents. Decorative slow orbit and scanning motion; reduced-motion supported.</desc>
+<defs>
+ <linearGradient id="edge"><stop stop-color="#59eadb"/><stop offset=".55" stop-color="#5077be"/><stop offset="1" stop-color="#ba91ff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#234962" stop-opacity=".58"/><stop offset="1" stop-color="#09101b" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2c3e" stroke-width=".7"/></pattern>
+ <clipPath id="frame"><rect width="1200" height="460" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.mono{font-family:Consolas,'Liberation Mono',monospace}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 36s linear infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.scan{animation:scan 12s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+@keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,75%{opacity:.65}85%{transform:translateX(950px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan{animation:none}.scan{display:none}}
+</style>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="460" fill="#090f19"/>
+ <rect width="1200" height="460" fill="url(#grid)" opacity=".45"/>
+ <text x="42" y="48" fill="#65e5da" font-size="15" class="mono" letter-spacing="2">SAMUEL521199 / PUBLIC LAB</text><circle cx="980" cy="218" r="235.6" fill="url(#halo)"/><circle cx="980" cy="218" r="124" fill="none" stroke="#2c475d"/><circle cx="980" cy="218" r="98" fill="none" stroke="#244d5d" stroke-dasharray="2 9"/><circle class="orbit" cx="980" cy="218" r="136" fill="none" stroke="#72ebdc" stroke-width="2" stroke-dasharray="65 340 18 500"/><circle cx="980" cy="218" r="72" fill="#0d1725" stroke="#3c4b67"/><path d="M980 218L1087.4 280.0" stroke="#29435b"/><circle class="pulse" cx="1087.4" cy="280.0" r="5" fill="#65e5da"/><path d="M980 218L872.6 280.0" stroke="#29435b"/><circle class="pulse" cx="872.6" cy="280.0" r="5" fill="#65e5da"/><path d="M980 218L980.0 94.0" stroke="#29435b"/><circle class="pulse" cx="980.0" cy="94.0" r="5" fill="#65e5da"/><text x="980" y="235" fill="#edf8ff" font-size="42" text-anchor="middle" font-weight="700">S/52</text><text x="980" y="259" fill="#7ca2b5" font-size="10" class="mono" text-anchor="middle" letter-spacing="1">SYSTEM BUILDER</text><text x="42" y="170" fill="#f0f6fc" font-size="104" font-weight="750" letter-spacing="-4">SAMUEL</text><text x="46" y="226" fill="#d3e2f1" font-size="30" >把想法，构建成系统。</text><text x="46" y="278" fill="#b49bf0" font-size="18" class="mono">AI SYSTEMS / WORKFLOWS / CREATIVE TOOLS</text><text x="46" y="326" fill="#a6b8ce" font-size="19" class="mono" letter-spacing="1">BUILD SYSTEMS. MAKE THEM REAL.</text><path d="M42 378H1158" stroke="#25364a"/><text x="42" y="422" fill="#83bdbd" font-size="14" class="mono">01 / THINK IN SYSTEMS</text><text x="433" y="422" fill="#83bdbd" font-size="14" class="mono">02 / BUILD IN CODE</text><text x="810" y="422" fill="#b09ccf" font-size="14" class="mono">03 / KEEP ITERATING</text><rect class="scan" x="0" y="0" width="2" height="460" fill="#72eedc" opacity=".1"/>
+ <rect x=".5" y=".5" width="1199" height="459" rx="12" fill="none" stroke="#29394d"/>
+ <path d="M1 36V1H90M1110 459H1199V424" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</g></svg>
