@@ -4,6 +4,12 @@
 </picture>
 
 <p align="center">
+  <img src="./assets/module-code.svg" width="32%" alt="装饰动画：代码雨">
+  <img src="./assets/module-core.svg" width="32%" alt="装饰动画：机甲能量核心旋转">
+  <img src="./assets/module-signal.svg" width="32%" alt="装饰动画：电路信号流">
+</p>
+
+<p align="center">
   <a href="#user-content-selected-work">精选项目</a> &nbsp; / &nbsp;
   <a href="#user-content-engineering">技术与实践</a> &nbsp; / &nbsp;
   <a href="#user-content-exploration">探索记录</a> &nbsp; / &nbsp;
@@ -14,8 +20,19 @@
 
 **当前重心 → [JarvisSystem](https://github.com/Samuel521199/JarvisSystem)**：围绕自然交流、个人记忆和持续协助，构建由使用者掌控的个人 AI 助手。
 
+## Telemetry / 项目数据舱
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/stats-compact.svg">
+  <img src="./assets/stats.svg" width="100%" alt="自动采集的公开仓库统计：仓库与 Fork 数量、主语言分布、Stars、获 Fork 数，以及重点项目最近推送日期。采集时间见图内。">
+</picture>
+
+<sub>每 6 小时、主页源码更新时自动采集；也可在 <a href="https://github.com/Samuel521199/Samuel521199/actions/workflows/profile-stats.yml">Actions</a> 手动刷新。仅统计公开仓库，非 Fork 数含主页；语言按每个非 Fork 仓库的主语言计数，不代表代码量或熟练度。调度与图片缓存可能延迟，以图内 UTC 时间为准。</sub>
+
 <a id="selected-work"></a>
 ## Selected work / 项目现场
+
+<img src="./assets/mecha-hangar.png" width="100%" alt="机甲格纳库主题插画：巨型装甲机体、维护平台与青紫色能源照明。">
 
 <a href="https://github.com/Samuel521199/JarvisSystem">
   <img src="./assets/jarvis.svg" width="100%" alt="JarvisSystem：个人 AI 助手开发原型，围绕交流、记忆、工具与项目工作区。查看源码。">
@@ -52,6 +69,8 @@
 
 <a id="engineering"></a>
 ## Engineering / 从代码到系统
+
+<img src="./assets/mecha-workshop.png" width="100%" alt="赛博机械工坊主题插画：悬浮侦察无人机、机械臂、反应堆与精密部件。">
 
 | 关注层 | 公开项目中的实践 |
 | :--- | :--- |
@@ -102,4 +121,4 @@ DEFINE THE PROBLEM
   <a href="https://github.com/Samuel521199/JarvisSystem/issues">围绕 Jarvis 交流</a>
 </p>
 
-<sub>项目资料核对：2026-10-20，来源为公开 GitHub 仓库、README 与目录。介绍不替代各项目的运行或验收结果。视觉资源随本仓库维护，不依赖第三方统计卡片服务。</sub>
+<sub>项目介绍核对：2026-10-20；统计另按图内时间自动更新。来源为公开 GitHub 仓库、README 与目录。机甲场景为主题概念插画，不是项目产品截图；介绍不替代各项目的运行或验收结果。视觉资源随本仓库维护，不依赖第三方统计卡片服务。</sub>

@@ -13,10 +13,14 @@ text{font-family:'Segoe UI',Arial,sans-serif}
 .orbit{transform-box:fill-box;transform-origin:center;animation:orbit 36s linear infinite}
 .pulse{animation:pulse 5s ease-in-out infinite}
 .scan{animation:scan 12s ease-in-out infinite}
+.rain{animation:rain 5s linear infinite}
+.route{stroke-dasharray:12 18;animation:route 6s linear infinite}
+@keyframes rain{from{transform:translateY(-100px)}to{transform:translateY(130px)}}
+@keyframes route{to{stroke-dashoffset:-120}}
 @keyframes orbit{to{transform:rotate(360deg)}}
 @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
 @keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,75%{opacity:.65}85%{transform:translateX(950px);opacity:0}}
-@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan{animation:none}.scan{display:none}}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan,.rain,.route{animation:none}.scan{display:none}}
 </style>
 <g clip-path="url(#frame)">
  <rect width="1200" height="84" fill="#090f19"/>

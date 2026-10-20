@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="160" viewBox="0 0 360 160" role="img" aria-labelledby="title desc">
+<title id="title">03 / SIGNAL ROUTE — decorative animation</title>
+<desc id="desc">Dark technical layout with cyan and violet accents. Decorative slow orbit and scanning motion; reduced-motion supported.</desc>
+<defs>
+ <linearGradient id="edge"><stop stop-color="#59eadb"/><stop offset=".55" stop-color="#5077be"/><stop offset="1" stop-color="#ba91ff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#234962" stop-opacity=".58"/><stop offset="1" stop-color="#09101b" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2c3e" stroke-width=".7"/></pattern>
+ <clipPath id="frame"><rect width="360" height="160" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.mono{font-family:Consolas,'Liberation Mono',monospace}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 36s linear infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.scan{animation:scan 12s ease-in-out infinite}
+.rain{animation:rain 5s linear infinite}
+.route{stroke-dasharray:12 18;animation:route 6s linear infinite}
+@keyframes rain{from{transform:translateY(-100px)}to{transform:translateY(130px)}}
+@keyframes route{to{stroke-dashoffset:-120}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+@keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,75%{opacity:.65}85%{transform:translateX(950px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.scan,.rain,.route{animation:none}.scan{display:none}}
+</style>
+<g clip-path="url(#frame)">
+ <rect width="360" height="160" fill="#090f19"/>
+ <rect width="360" height="160" fill="url(#grid)" opacity=".45"/>
+ <path d="M26 66H88L110 32H235L260 66H334M88 66L110 99H235L260 66" fill="none" stroke="#2f445d" stroke-width="2"/><path class="route" d="M26 66H88L110 32H235L260 66H334M88 66L110 99H235L260 66" fill="none" stroke="#b496f0" stroke-width="2"/><circle class="pulse" cx="26" cy="66" r="5" fill="#102437" stroke="#65e5da"/><circle class="pulse" cx="110" cy="32" r="5" fill="#102437" stroke="#65e5da"/><circle class="pulse" cx="235" cy="32" r="5" fill="#102437" stroke="#65e5da"/><circle class="pulse" cx="110" cy="99" r="5" fill="#102437" stroke="#65e5da"/><circle class="pulse" cx="235" cy="99" r="5" fill="#102437" stroke="#65e5da"/><circle class="pulse" cx="334" cy="66" r="5" fill="#102437" stroke="#65e5da"/><rect x="1" y="119" width="358" height="40" fill="#0b1421"/><path d="M16 119H344" stroke="#27384c"/><text x="18" y="145" fill="#aec5d8" font-size="13" class="mono" letter-spacing="1">03 / SIGNAL ROUTE</text>
+ <rect x=".5" y=".5" width="359" height="159" rx="12" fill="none" stroke="#29394d"/>
+ <path d="M1 36V1H90M270 159H359V124" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</g></svg>
