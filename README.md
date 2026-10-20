@@ -4,9 +4,9 @@
 </picture>
 
 <p align="center">
-  <a href="#selected-work">精选项目</a> &nbsp; / &nbsp;
-  <a href="#engineering">技术与实践</a> &nbsp; / &nbsp;
-  <a href="#exploration">探索记录</a> &nbsp; / &nbsp;
+  <a href="#user-content-selected-work">精选项目</a> &nbsp; / &nbsp;
+  <a href="#user-content-engineering">技术与实践</a> &nbsp; / &nbsp;
+  <a href="#user-content-exploration">探索记录</a> &nbsp; / &nbsp;
   <a href="https://github.com/Samuel521199?tab=repositories">全部公开仓库 ↗</a>
 </p>
 
