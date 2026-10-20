@@ -23,11 +23,11 @@
 ## Telemetry / 项目数据舱
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/stats-compact.svg">
+  <source media="(max-width: 900px)" srcset="./assets/stats-compact.svg">
   <img src="./assets/stats.svg" width="100%" alt="自动采集的公开仓库统计：仓库与 Fork 数量、主语言分布、Stars、获 Fork 数，以及重点项目最近推送日期。采集时间见图内。">
 </picture>
 
-<sub>每 6 小时、主页源码更新时自动采集；也可在 <a href="https://github.com/Samuel521199/Samuel521199/actions/workflows/profile-stats.yml">Actions</a> 手动刷新。仅统计公开仓库，非 Fork 数含主页；语言按每个非 Fork 仓库的主语言计数，不代表代码量或熟练度。调度与图片缓存可能延迟，以图内 UTC 时间为准。</sub>
+<sub>每 6 小时、主页源码更新时自动采集；也可在 <a href="https://github.com/Samuel521199/Samuel521199/actions/workflows/profile-stats.yml">Actions</a> 手动刷新，或查看<a href="https://github.com/Samuel521199/Samuel521199/blob/main/data/public-projects.json">数据明细</a>。仅统计公开仓库，非 Fork 数含主页；语言按每个非 Fork 仓库的主语言计数，不代表代码量或熟练度。调度与图片缓存可能延迟，以图内 UTC 时间为准。</sub>
 
 <a id="selected-work"></a>
 ## Selected work / 项目现场
