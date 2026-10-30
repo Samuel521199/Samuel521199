@@ -1,11 +1,11 @@
 {
   "checked_on": "2026-10-30",
-  "collected_at_utc": "2026-10-30 13:11",
+  "collected_at_utc": "2026-10-30 22:29",
   "source": "https://api.github.com/users/Samuel521199/repos?type=owner&per_page=100",
   "summary": {
-    "public_repositories": 27,
+    "public_repositories": 28,
     "non_fork_repositories": 18,
-    "fork_repositories": 9,
+    "fork_repositories": 10,
     "language_count": 5,
     "primary_languages": {
       "Python": 9,
@@ -84,6 +84,20 @@
       "size": 8333,
       "updated_at": "2025-05-22T14:59:29Z",
       "pushed_at": "2025-05-22T14:59:25Z",
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "charakuru-claude-code",
+      "html_url": "https://github.com/Samuel521199/charakuru-claude-code",
+      "description": "Unofficial Claude Code skill for running きゃらくる / Charakuru: from a character illustration to a VRM with spring bones and expressions. Kit not included.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "size": 51,
+      "updated_at": "2026-10-30T17:16:48Z",
+      "pushed_at": "2026-10-26T11:50:14Z",
       "default_branch": "main",
       "stargazers_count": 0,
       "forks_count": 0
@@ -263,9 +277,9 @@
       "language": "Python",
       "fork": false,
       "archived": false,
-      "size": 9826,
-      "updated_at": "2026-10-30T06:00:34Z",
-      "pushed_at": "2026-10-30T06:00:30Z",
+      "size": 9831,
+      "updated_at": "2026-10-30T13:11:08Z",
+      "pushed_at": "2026-10-30T13:11:05Z",
       "default_branch": "main",
       "stargazers_count": 2,
       "forks_count": 0
